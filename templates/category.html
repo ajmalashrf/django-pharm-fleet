@@ -1,0 +1,17 @@
+{%extends "base.html" %}
+
+{%block title%}
+category
+{%endblock%}
+
+{%block content%}
+<h1 class="text-center"> About Us</h1>
+<hr>
+{% for c in cat %}
+<div class="mx-auto w-50 bg-dark blue text-center text-white p-3 my-3 border border-warning rounded">
+    <h2>{{c.cat_name}}</h2>
+    <p>{{c.cat_description}}</p>
+
+</div>
+{%endfor%}
+{%endblock%}

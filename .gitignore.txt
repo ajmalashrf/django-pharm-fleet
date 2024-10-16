@@ -1,0 +1,33 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Database #
+db.sqlite3
+*.sqlite3
+
+# Environments #
+.env
+*.env
+venv/
+env/
+ENV/
+.venv/
+.idea/
+
+# Static and media #
+staticfiles/
+media/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*~ 
+*.swp
+.DS_Store
+
+# Virtual environment
+*.venv/
+.env/
